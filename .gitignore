@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build files
+dist/
+build/
+web-build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# React Native
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+
+# Temporary files
+*.tmp
+*.temp
+
+
+
+
+
+# Uploaded documents / user files
+backend/uploads/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
